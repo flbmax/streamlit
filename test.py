@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.text('Fixed width text')
+st.text('Fixed text')
 st.markdown('_Markdown_') # see #*
 st.caption('Balloons. Hundreds of them...')
 st.latex(r''' e^{i\pi} + 1 = 0 ''')
