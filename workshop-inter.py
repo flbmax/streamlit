@@ -12,9 +12,9 @@ qlik_premium_button = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe307
 qlik_club_button = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=XrdMB&theme=horizon&opt=ctxmenu,currsel"
 
 
-st.components.v1.iframe(qlik_profiles, height=100, width=100)
-st.components.v1.iframe(qlik_teams, height=100, width=100)
-st.components.v1.iframe(qlik_pane, height=100, width=100)
+st.components.v1.iframe(qlik_standalone_button, height=100, width=100)
+st.components.v1.iframe(qlik_premium_button, height=100, width=100)
+st.components.v1.iframe(qlik_club_button, height=100, width=100)
 
 embed_qlik_iframe(qlik_profiles)
 embed_qlik_iframe(qlik_teams)
