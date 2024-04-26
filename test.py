@@ -18,7 +18,6 @@ def embed_qlik_iframe(iframe_url):
     st.components.v1.iframe(iframe_url, height=600)
 
 # Lien iFrame de votre graphique Qlik Sense
-qlik_iframe_url = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu,currsel&select=%2310%20-%20Members%2"
-
+qlik_iframe_url = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu" style="border:none;width:100%;height:100%;"
 # Appeler la fonction pour intégrer l'iFrame dans l'application Streamlit
 embed_qlik_iframe(qlik_iframe_url)
