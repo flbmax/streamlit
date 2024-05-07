@@ -17,7 +17,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 st.caption('*using profile.default_language to determine the country')
 
 
-col1, col2 = st.columns(2, gap='medium')
+col1, col2 = st.columns(2, gap='large')
 with col1:
     st.subheader('b. Teams')
     # teams created
@@ -36,7 +36,7 @@ with col2:
 
 st.header('2. Typology of teams by country today')
 
-col3, col4 = st.columns(2)
+col3, col4 = st.columns(2, gap='large')
 with col3:
     st.subheader('a. Type Plan, Group Type, Gender, Device')
     # trellis teams
