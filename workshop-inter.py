@@ -36,20 +36,20 @@ with col2:
 
 st.header('2. Typology of teams by country today')
 
-col3, col4, col5 = st.columns(3, gap='large')
+st.subheader('a. Type Plan, Group Type, Gender, Device')
+# trellis teams
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=SJrNx&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=1000)
+
+col3, col4 = st.columns(3, gap='large')
 with col3:
-    st.subheader('a. Type Plan, Group Type, Gender, Device')
-    # trellis teams
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=SJrNx&theme=horizon&opt=ctxmenu",
-            height=500,
-            width=650)
-with col4:
     st.subheader('b. Sport')
     # sport pie chart
     components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
         height=500,
         width=650)
-with col5:
+with col4:
     st.subheader('c. First Source')
     # first source pie chart
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=ssTyVB&theme=horizon&opt=ctxmenu",
