@@ -1,7 +1,8 @@
 import streamlit as st
 
-se_logo = st.image('sporteasy.png')
-st.set_page_config(page_title="worksop-international", page_icon=se_logo, layout="wide")
+st.set_page_config(page_title="worksop-international", 
+    page_icon="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fsporteasy&psig=AOvVaw2LCx-V9V74AHtbfd2AaK2V&ust=1715178164871000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiN99ze-4UDFQAAAAAdAAAAABAD",   
+    layout="wide")
 
 # Functions
 def embed_qlik_iframe(iframe_url):
