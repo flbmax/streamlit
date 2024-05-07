@@ -1,11 +1,6 @@
 import streamlit as st
 
 # Functions
-def wide_space_default():
-st.set_page_config(layout=“wide”)
-
-wide_space_default()
-
 def embed_qlik_iframe(iframe_url):
     st.components.v1.iframe(iframe_url, height=600, width=900)
 # Functions
