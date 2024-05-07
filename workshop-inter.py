@@ -23,14 +23,14 @@ with col1:
     # teams created
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
             height=500,
-            width=600)
+            width=650)
     st.caption('*using team.country_id to determine the country')
 with col2:
     st.subheader('c. Clubs')
     # clubs created
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
             height=500,
-            width=600)
+            width=650)
     st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé")
     st.caption("Churn : le club a payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
 
@@ -42,21 +42,21 @@ with col3:
     # trellis teams
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=SJrNx&theme=horizon&opt=ctxmenu",
             height=500,
-            width=600)
+            width=650)
 with col4:
-    col5, col6 = st.columns(2)
+    col45, col46 = st.columns(2)
     with col45:
         st.subheader('b. Sport')
         # sport pie chart
         components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
             height=500,
-            width=600)
+            width=650)
     with col46:
         st.subheader('c. First Source')
         # first source pie chart
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=ssTyVB&theme=horizon&opt=ctxmenu",
             height=500,
-            width=600)
+            width=650)
 
 st.subheader('d. Activation Analysis')
 # A2
