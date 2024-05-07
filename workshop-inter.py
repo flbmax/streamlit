@@ -14,18 +14,25 @@ st.subheader('a. Users')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+st.caption('*using profile.default_language to determine the country')
+
+
 
 st.subheader('b. Teams')
 # teams created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+st.caption('*using team.country_id to determine the country')
+
 
 st.subheader('c. Clubs')
 # clubs created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé.")
+st.caption("Churn : à payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
 
 
 
