@@ -13,19 +13,19 @@ st.subheader('a. Users')
 # profiles created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
         height=500,
-        width=500)
+        width=700)
 
 st.subheader('b. Teams')
 # teams created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
         height=500,
-        width=500)
+        width=700)
 
 st.subheader('c. Clubs')
 # clubs created
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
         height=500,
-        width=500)
+        width=700)
 
 
 
