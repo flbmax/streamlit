@@ -31,7 +31,7 @@ st.subheader('c. Clubs')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
-st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé.\n Churn : à payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
+st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé.\n\n Churn : à payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
 
 
 
