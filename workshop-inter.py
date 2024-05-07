@@ -4,7 +4,7 @@ st.set_page_config(page_title="worksop-international", layout="wide")
 
 # Functions
 def embed_qlik_iframe(iframe_url):
-    st.components.iframe(iframe_url, height=600, width=900)
+    st.components.v1.iframe(iframe_url, height=600, width=900)
 # Functions
 
 st.title('Workshop International Team')
