@@ -13,7 +13,7 @@ st.subheader('a. Users')
 
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
         height=500,
-        width=300)
+        width=500)
 
 
 
