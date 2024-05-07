@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="workshop-international", layout="wide")
 
-st.title('green[Workshop International Team]', anchor=True)
+st.title('green[Workshop International Team]')
 st.markdown('2024-05-21')
 
 st.header('1. Growth in number of users, teams & clubs')
@@ -34,6 +34,7 @@ with col2:
     st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé")
     st.caption("Churn : le club a payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
 
+st.divider()
 st.header('2. Typology of teams by country today')
 
 st.subheader('a. Type Plan, Group Type, Gender, Device')
