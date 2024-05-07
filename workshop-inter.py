@@ -4,7 +4,8 @@ import streamlit as st
 def embed_qlik_iframe(iframe_url):
     st.components.v1.iframe(iframe_url, height=600, width=900)
 
-st.title('Workshop International Team 2024-05-21')
+st.title('Workshop International Team')
+st.markdown('2024-05-21')
 
 
 #qlik_profiles = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu"
