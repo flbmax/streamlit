@@ -10,8 +10,10 @@ def embed_qlik_iframe(iframe_url):
 st.title('Workshop International Team')
 st.markdown('2024-05-21')
 
-st.header('1. Growth in number of users')
+st.header('1. Growth in number of users, teams & clubs')
 st.caption('by country from 01/01/2019 to today')
+
+st.subheader('a. Users')
 
 
 
@@ -21,19 +23,6 @@ st.caption('by country from 01/01/2019 to today')
 
 #qlik_profiles = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu"
 #qlik_teams = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu"
-
-
-
-st.text('Fixed width text')
-st.markdown('_Markdown_') # see #*
-st.caption('Balloons. Hundreds of them...')
-st.latex(r''' e^{i\pi} + 1 = 0 ''')
-st.write('Most objects') # df, err, func, keras!
-st.write(['st', 'is <', 3]) # see *
-st.title('My title')
-st.header('My header')
-st.subheader('My sub')
-st.code('for i in range(8): foo()')
 
 
 #embed_qlik_iframe(qlik_profiles)
