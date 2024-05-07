@@ -36,7 +36,7 @@ with col2:
 
 st.header('2. Typology of teams by country today')
 
-col3, col4, col5 = st.columns(2, gap='large')
+col3, col4, col5 = st.columns(3, gap='large')
 with col3:
     st.subheader('a. Type Plan, Group Type, Gender, Device')
     # trellis teams
