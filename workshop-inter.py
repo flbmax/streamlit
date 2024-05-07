@@ -36,7 +36,7 @@ with col2:
 
 st.header('2. Typology of teams by country today')
 
-col3, col4 = st.columns(2, gap='large')
+col3, col4, col5 = st.columns(2, gap='large')
 with col3:
     st.subheader('a. Type Plan, Group Type, Gender, Device')
     # trellis teams
@@ -44,19 +44,17 @@ with col3:
             height=500,
             width=650)
 with col4:
-    col45, col46 = st.columns(2)
-    with col45:
-        st.subheader('b. Sport')
-        # sport pie chart
-        components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
-            height=500,
-            width=650)
-    with col46:
-        st.subheader('c. First Source')
-        # first source pie chart
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=ssTyVB&theme=horizon&opt=ctxmenu",
-            height=500,
-            width=650)
+    st.subheader('b. Sport')
+    # sport pie chart
+    components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=650)
+with col5:
+    st.subheader('c. First Source')
+    # first source pie chart
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=ssTyVB&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=650)
 
 st.subheader('d. Activation Analysis')
 # A2
