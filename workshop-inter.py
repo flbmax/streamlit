@@ -6,6 +6,8 @@ def embed_qlik_iframe(iframe_url):
 
 st.title('Workshop International Team')
 st.markdown('2024-05-21')
+st.write('Featuring Nizar Melki')
+
 
 
 #qlik_profiles = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu"
