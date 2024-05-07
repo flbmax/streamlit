@@ -1,9 +1,9 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="worksop-international", layout="wide")
+st.set_page_config(page_title="workshop-international", layout="wide")
 
-st.title('Workshop International Team')
+st.title('green[Workshop International Team]', anchor=True)
 st.markdown('2024-05-21')
 
 st.header('1. Growth in number of users, teams & clubs')
