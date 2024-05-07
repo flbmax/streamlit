@@ -46,7 +46,7 @@ st.subheader('b. Sport')
 # sport pie chart
 components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
     height=500,
-    width=1200)
+    width=2000)
 
 col3, col4 = st.columns(2, gap='large')
 with col3:
