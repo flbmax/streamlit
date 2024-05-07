@@ -1,11 +1,7 @@
 import streamlit as st
+import st.components.v1 as components
 
 st.set_page_config(page_title="worksop-international", layout="wide")
-
-# Functions
-def embed_qlik_iframe(iframe_url):
-    st.components.v1.iframe(iframe_url, height=600, width=900)
-# Functions
 
 st.title('Workshop International Team')
 st.markdown('2024-05-21')
