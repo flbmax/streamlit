@@ -15,7 +15,7 @@ st.caption('by country from 01/01/2019 to today')
 
 st.subheader('a. Users')
 
-qlik_profiles = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu" style="border:none;width:100%;height:100%"
+qlik_profiles = "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu"
 embed_qlik_iframe(qlik_profiles)
 
 
