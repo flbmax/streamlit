@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="workshop-international", layout="wide")
 
-st.title(':flag-eu: Workshop International Team')
+st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
 st.header(':violet[1. Growth in number of users, teams & clubs]')
