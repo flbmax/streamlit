@@ -1,12 +1,12 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="workshop-international", layout="wide")
+st.set_page_config(page_title="workshop-international", page_icon='sporteasy.png', layout="wide")
 
 st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
-st.header('1. Growth in number of users, teams & clubs',divider='blue')
+st.header('1. Growth in number of users, teams & clubs')
 st.caption('by country from 01/01/2019 to today')
 
 st.subheader(':green[a. Users]')
@@ -35,7 +35,7 @@ with col2:
     st.caption("Churn : le club a payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
 
 st.divider()
-st.header('2. Typology of teams by country today',divider='blue')
+st.header('2. Typology of teams by country today')
 
 st.subheader(':green[a. Type Plan, Group Type, Gender, Device]')
 # trellis teams
