@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 # Functions
 def embed_qlik_iframe(iframe_url):
     st.components.v1.iframe(iframe_url, height=600, width=900)
