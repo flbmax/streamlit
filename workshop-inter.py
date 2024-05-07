@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="worksop-international", 
-    page_icon="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fsporteasy&psig=AOvVaw2LCx-V9V74AHtbfd2AaK2V&ust=1715178164871000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMiN99ze-4UDFQAAAAAdAAAAABAD",   
+    page_icon="sporteasy_logo.jpeg",
     layout="wide")
 
 # Functions
