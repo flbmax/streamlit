@@ -62,7 +62,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption("We can notice a global saisonnality everery year !")
 
-st.subheader(':green[d. Teams Purposes Analysis]')
+st.subheader(':green[e. Teams Purposes Analysis]')
 # purpose
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
         height=600,
@@ -89,19 +89,19 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     height=400,
     width=1700)
 
-st.subheader(':green[c. # Teams in clubs]')
+st.subheader(':green[d. # Teams in clubs]')
 # teams in clubs pie chart
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=MdyY&theme=horizon&opt=ctxmenu",
     height=400,
     width=1700)
 
-st.subheader(':green[c. Clubs Region]')
+st.subheader(':green[e. Clubs Region]')
 # map of the clubs
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
     height=600,
     width=2000)
 
-st.subheader(':green[c. Health Score]')
+st.subheader(':green[f. Health Score]')
 # clubs health score
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
     height=500,
