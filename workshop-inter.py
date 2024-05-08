@@ -65,7 +65,7 @@ st.caption("We can notice a global saisonnality everery year !")
 st.divider()
 st.header('3. Typology of clubs by country today')
 
-st.subheader(':green[a. Type Plan, Size]')
+st.subheader(':green[a. Type Plan, Lifetime]')
 # trellis clubs
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=LZWsLQr&theme=horizon&opt=ctxmenu",
         height=500,
@@ -88,4 +88,15 @@ st.subheader(':green[c. # Teams in clubs]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=MdyY&theme=horizon&opt=ctxmenu",
     height=400,
     width=1700)
+
+st.subheader(':green[c. Clubs Region]')
+# teams in clubs pie chart
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
+    height=400,
+    width=1700)
+
+st.divider()
+st.header('4. Churn Analysis')
+st.caption('by country from 01/01/2019 to today')
+
 
