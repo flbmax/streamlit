@@ -31,8 +31,8 @@ with col2:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
             height=500,
             width=650)
-    st.caption("Client : au moins un paiement autorisé ou en chargeback sur SportEasy - donc pas de clubs sponsorisés n'ayant jamais payé")
-    st.caption("Churn : le club a payé au moins une fois sur SportEasy et est maintenant en Free Plan ou Free Trial Plan")
+    st.caption("Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid")
+    st.caption("Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan")
 
 st.divider()
 st.header('2. Typology of teams by country today')
@@ -67,6 +67,11 @@ st.subheader(':green[e. Teams Purposes Analysis]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
         height=600,
         width=2000)
+
+st.write("Let's compare with France :")
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=UXJAjC&theme=horizon&opt=ctxmenu" ,
+        height=500,
+        width=1000)
 
 st.divider()
 st.header('3. Typology of clubs by country today')
