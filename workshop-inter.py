@@ -62,6 +62,12 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption("We can notice a global saisonnality everery year !")
 
+st.subheader(':green[d. Teams Purposes Analysis]')
+# purpose
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
+        height=600,
+        width=2000)
+
 st.divider()
 st.header('3. Typology of clubs by country today')
 
@@ -95,6 +101,12 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     height=600,
     width=2000)
 
+st.subheader(':green[c. Health Score]')
+# clubs health score
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
+    height=500,
+    width=1000)
+
 st.divider()
 st.header('4. Churn Analysis')
 st.caption('by country from 01/01/2019 to today')
@@ -115,3 +127,5 @@ st.subheader(':green[b. Premium Version]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=mSjqNZu&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+
+
