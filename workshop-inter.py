@@ -90,10 +90,10 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     width=1700)
 
 st.subheader(':green[c. Clubs Region]')
-# teams in clubs pie chart
+# map of the clubs
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
-    height=400,
-    width=1700)
+    height=600,
+    width=2000)
 
 st.divider()
 st.header('4. Churn Analysis')
