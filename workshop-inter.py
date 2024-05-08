@@ -108,9 +108,9 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 
 st.subheader(':green[f. Health Score]')
 # clubs health score
-components.iframe(,
-    height=500,
-    width=1000)
+#components.iframe(,
+#    height=500,
+#    width=1000)
 
 st.divider()
 st.header('4. Churn Analysis')
