@@ -13,13 +13,13 @@ st.subheader(':green[a. Numbers]')
 with st.container():
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
         height=50,
-        width=650)
+        width=500)
     col1, col2 = st.columns(2, gap='large')
     with col1:
         # results
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Btfjt&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
             height=400,
-            width=600)
+            width=650)
     with col2:
         # target
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=tNSLpW&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
@@ -34,7 +34,7 @@ st.subheader(':green[b. 2024 Target]')
 with st.container():
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=LHhEnK&theme=horizon&opt=ctxmenu",
         height=50,
-        width=700)
+        width=500)
 
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=GQmHumj&theme=horizon&opt=ctxmenu&select=1-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
         height=400,
