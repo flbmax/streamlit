@@ -74,7 +74,7 @@ with st.container():
         
     with st.container():
         st.write("number of clubs")
-        col1, col2, col3, col4, col5 = st.columns(5, gap="small")
+        col1, col2, col3, col4, col5, col6 = st.columns(6, gap="small")
         with col1:
             st.caption("2019")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=ynhjmJ&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
@@ -100,7 +100,7 @@ with st.container():
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YvtMmW&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
                 width=100)
-        with col5:
+        with col6:
             st.caption("2024")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=uFLnErN&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
