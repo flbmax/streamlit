@@ -18,8 +18,8 @@ with st.container():
             width=400)
     with col2:
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=pbycPuG&theme=horizon&opt=ctxmenu",
-            height=200,
-            width=300)
+            height=100,
+            width=200)
     # results
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Btfjt&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
         height=300,
