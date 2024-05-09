@@ -44,57 +44,57 @@ with st.container():
         st.caption("2018")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=60,
-            width=400)
+            width=100)
     with col2:
         st.caption("2019")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=60,
-            width=400)
+            width=100)
     with col3:
         st.caption("2020")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=60,
-            width=400)
+            width=100)
     with col4:
         st.caption("2021")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=60,
-            width=400)
+            width=100)
     with col5:
         st.caption("2022")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=60,
-            width=400)
+            width=100)
         
         
     with st.container():
-        st.write("# clubs")
+        st.write("number of clubs")
         col1, col2, col3, col4, col5 = st.columns(5, gap="small")
         with col1:
             st.caption("2018")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
-                width=400)
+                width=100)
         with col2:
             st.caption("2019")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
-                width=400)
+                width=100)
         with col3:
             st.caption("2020")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
-                width=400)
+                width=100)
         with col4:
             st.caption("2021")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
-                width=400)
+                width=100)
         with col5:
             st.caption("2022")
             components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
                 height=60,
-                width=400)
+                width=100)
 
 
 
