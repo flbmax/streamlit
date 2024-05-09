@@ -110,8 +110,8 @@ multi = '''
 We can notice the high number of churn clubs and the low number if churn in turnover, why ? 3 reasons :
     -> The churned clubs resulted in a loss of <b>2100,90 €</b> in 2024. 
     -> The upsell on renewed clubs was <b>1109,54 €</b> in 2024
-    -> 1 monthly reacquired plan for the amount of <b>36,00 €</b> 
+    -> 1 monthly reacquired plan for the amount of **36,00 €**
 
-    The net churn in turnover is therefore 2100,90-1109,54-36,00=<b>955,36 €</b> 
+    The net churn in turnover is therefore 2100,90-1109,54-36,00=<b>955,36 €</b>
 '''
 st.write(multi)
