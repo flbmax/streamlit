@@ -116,17 +116,3 @@ with col4:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=GQmHumj&theme=horizon&opt=ctxmenu&select=KPI%20AM::club.country_id,ES,GB,IT,NL,PT",
             height=500,
             width=1000)
-
-
-def open_link_in_new_tab(url):
-    js = f"window.open('{url}');"
-    st.write(f'<script>{js}</script>', unsafe_allow_html=True)
-
-
-# Création de la barre latérale (sidebar)
-st.sidebar.title("Executive Summary")
-
-# Ajout des liens cliquables dans la barre latérale
-if st.sidebar.button("1. Growth in number of profiles, teams & clubs"):
-    # Lien redirigeant vers une URL externe
-    st.link_button('google',"https://workshop-inter.streamlit.app/#4-churn-analysis")
