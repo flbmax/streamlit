@@ -153,18 +153,22 @@ with col4:
             width=1000)
 
 
-# Titre de la page
-st.title("Mon Application Streamlit")
 
 # Création de la barre latérale (sidebar)
-st.sidebar.title("Sommaire")
+st.sidebar.title("Executive Summary")
 
 # Ajout des liens cliquables dans la barre latérale
-if st.sidebar.button("Section 1"):
-    st.write("Contenu de la Section 1")
+if st.sidebar.button("1. Growth in number of profiles, teams & clubs"):
+    st.write("test test test")
     
-if st.sidebar.button("Section 2"):
-    st.write("Contenu de la Section 2")
+if st.sidebar.button("2. Typology of teams by country today"):
+    st.write("test test test")
 
-if st.sidebar.button("Section 3"):
-    st.write("Contenu de la Section 3")
+if st.sidebar.button("3. Typology of clubs by country today"):
+    st.write("test test test ")
+
+if st.sidebar.button("2. Typology of teams by country today"):
+    st.write("test test test")
+
+if st.sidebar.button("3. Typology of clubs by country today"):
+    st.markdown("(https://workshop-inter.streamlit.app/#1-growth-in-number-of-users-teams-clubs)")
