@@ -1,2 +1,2 @@
 import streamlit
-import st_pages
+import st-pages
