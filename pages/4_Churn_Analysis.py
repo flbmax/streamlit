@@ -15,7 +15,7 @@ with st.container():
     with col1:
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu",
             height=50,
-            width=400)
+            width=100)
     with col2:
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=pbycPuG&theme=horizon&opt=ctxmenu",
             height=100,
