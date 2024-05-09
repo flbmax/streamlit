@@ -166,4 +166,4 @@ st.sidebar.title("Executive Summary")
 # Ajout des liens cliquables dans la barre latérale
 if st.sidebar.button("1. Growth in number of profiles, teams & clubs"):
     # Lien redirigeant vers une URL externe
-    open_link_in_new_tab("https://www.google.com")
+    st.linkbutton("https://www.google.com")
