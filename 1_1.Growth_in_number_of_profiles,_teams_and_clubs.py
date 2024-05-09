@@ -1,8 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
-#from st_pages import show_pages_from_config
+from st_pages import show_pages_from_config
 
-#show_pages_from_config()
+show_pages_from_config()
 
 st.set_page_config(page_title="workshop-international", page_icon='sporteasy_logo.png', layout="wide")
 
