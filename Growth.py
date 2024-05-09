@@ -42,7 +42,7 @@ multi = '''Client : at least one authorised payment or in chargeback status - he
 
 Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan
 '''
-st.caption(multi)
+st.write(multi)
 
 
 
