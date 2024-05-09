@@ -37,8 +37,10 @@ with col2:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
             height=500,
             width=650)
-    st.caption("Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid")
-    st.caption("Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan")
+multi = '''Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid
+Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan
+'''
+st.caption(multi)
 
 st.divider()
 st.header('2. Typology of teams by country today')
