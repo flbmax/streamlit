@@ -12,15 +12,16 @@ st.caption('by country from 01/01/2019 to today')
 st.subheader(':green[a. Numbers]')
 with st.container():
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
-        height=500,
+        height=100,
         width=1000)
-    col1, col2 = st.columns(2, gap='large')
+    col1, col2, col3 = st.columns(3, gap='large')
     with col1:
         # results
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Btfjt&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
             height=500,
             width=1000)
-    with col2:
+    with col3:
+        # target
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=tNSLpW&theme=horizon&opt=ctxmenu&select=2-workshop::%3DIf(Match(club.country_id%2C'ES'%2C'IT'%2C'GB'%2C'NL'%2C'PT')%2Cclub.country_id),ES,GB,IT,NL,PT",
             height=500,
             width=1000)
