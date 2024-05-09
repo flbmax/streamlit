@@ -155,11 +155,15 @@ with col4:
             width=1000)
 
 
+def open_link_in_new_tab(url):
+    js = f"window.open('{url}');"
+    st.write(f'<script>{js}</script>', unsafe_allow_html=True)
+
 
 # Création de la barre latérale (sidebar)
 st.sidebar.title("Executive Summary")
 
 # Ajout des liens cliquables dans la barre latérale
-if st.sidebar.button("[1. Growth in number of profiles, teams & clubs](https://google.com)")
+if st.sidebar.button("1. Growth in number of profiles, teams & clubs"):
     # Lien redirigeant vers une URL externe
-    #st.markdown('[Visitez mon site web](https://www.google.com)')
+    open_link_in_new_tab("https://www.google.com")
