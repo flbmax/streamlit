@@ -167,3 +167,13 @@ st.sidebar.title("Executive Summary")
 if st.sidebar.button("1. Growth in number of profiles, teams & clubs"):
     # Lien redirigeant vers une URL externe
     st.link_button('google',"https://www.google.com")
+
+
+# Fonction JavaScript pour déclencher le défilement vers une section spécifique
+def scroll_to_section(section_id):
+    js = f"document.getElementById('{section_id}').scrollIntoView();"
+    st.write(f'<script>{js}</script>', unsafe_allow_html=True)
+
+# Bouton pour déclencher le défilement vers la Section 1
+if st.sidebar.button("Aller à la Section 1"):
+    scroll_to_section("section1")
