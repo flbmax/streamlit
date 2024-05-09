@@ -1,29 +1,11 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from st_pages import Page, add_page_title, show_pages
+from st_pages import show_pages_from_config
 
+show_pages_from_config()
 
 st.set_page_config(page_title="workshop-international", page_icon='sporteasy_logo.png', layout="wide")
 
-
-"## Declaring the pages in your app:"
-
-show_pages(
-    [
-        Page("example_app/streamlit_app.py", "Home", "🏠"),
-        # Can use :<icon-name>: or the actual icon
-        Page("example_app/example_one.py", "Example One", ":books:"),
-        # The pages appear in the order you pass them
-        Page("example_app/example_four.py", "Example Four", "📖"),
-        Page("example_app/example_two.py", "Example Two", "✏️"),
-        # Will use the default icon and name based on the filename if you don't
-        # pass them
-        Page("example_app/example_three.py"),
-        Page("example_app/example_five.py", "Example Five", "🧰"),
-    ]
-)
-
-add_page_title()  # Optional method to add title and icon to current page
 
 st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
