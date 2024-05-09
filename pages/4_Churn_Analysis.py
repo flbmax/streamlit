@@ -11,15 +11,9 @@ st.caption('by country from 01/01/2019 to today')
 
 st.subheader(':green[a. Targets & Results]')
 with st.container():
-    col1, col2 = st.columns(2, gap='small')
-    with col1:
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu",
-            height=60,
-            width=400)
-    with col2:
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=pbycPuG&theme=horizon&opt=ctxmenu",
-            height=60,
-            width=150)
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu",
+        height=60,
+        width=400)
     # results
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Btfjt&theme=horizon&opt=ctxmenu",
         height=300,
