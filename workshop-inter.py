@@ -160,6 +160,6 @@ with col4:
 st.sidebar.title("Executive Summary")
 
 # Ajout des liens cliquables dans la barre latérale
-if st.sidebar.button("[1. Growth in number of profiles, teams & clubs](https://google.com)"):
+if st.sidebar.button("[1. Growth in number of profiles, teams & clubs](https://google.com)")
     # Lien redirigeant vers une URL externe
     #st.markdown('[Visitez mon site web](https://www.google.com)')
