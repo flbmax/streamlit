@@ -151,3 +151,20 @@ with col4:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=GQmHumj&theme=horizon&opt=ctxmenu&select=KPI%20AM::club.country_id,ES,GB,IT,NL,PT",
             height=500,
             width=1000)
+
+
+# Titre de la page
+st.title("Mon Application Streamlit")
+
+# Création de la barre latérale (sidebar)
+st.sidebar.title("Sommaire")
+
+# Ajout des liens cliquables dans la barre latérale
+if st.sidebar.button("Section 1"):
+    st.write("Contenu de la Section 1")
+    
+if st.sidebar.button("Section 2"):
+    st.write("Contenu de la Section 2")
+
+if st.sidebar.button("Section 3"):
+    st.write("Contenu de la Section 3")
