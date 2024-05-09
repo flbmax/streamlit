@@ -42,6 +42,7 @@ row2 = st.columns(3)
 
 for col in row1 + row2:
     tile = col.container(border=True)
+    tile.title("2018")
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=AarkBp&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
         height=60,
         width=400)
