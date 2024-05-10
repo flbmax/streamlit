@@ -66,8 +66,8 @@ st.write("The French trend is better : high-rated clubs are paying more")
 st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.current_plan,Integral%20Plan,Monthly%20Plan,Yearly%20Plan",
-    height=400,
-    width=1700)
+    height=200,
+    width=700)
 
 st.subheader(':green[h. Zoom on Collections]')
 # collections use
