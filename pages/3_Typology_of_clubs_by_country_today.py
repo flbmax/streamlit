@@ -64,9 +64,9 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-
 st.caption("The KYC France is juste here to compare the trend not the value ")
 
 # trellis with the activities by country
-components.iframe(,
-    height=400,
-    width=1700)
+#components.iframe(,
+#    height=400,
+#    width=1700)
 
 st.subheader(':green[g. Clubs Region]')
 # map of the clubs
