@@ -50,11 +50,11 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     height=400,
     width=1700)
 
-#st.subheader(':green[e. Main Features]')
+st.subheader(':green[e. Main Features]')
 # 3 top used features based on health score
-#components.iframe(,
-#    height=400,
-#    width=1700)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.current_plan,Integral%20Plan,Monthly%20Plan,Yearly%20Plan",
+    height=400,
+    width=1700)
 
 st.subheader(':green[f. Zoom on Collections]')
 # collections use
