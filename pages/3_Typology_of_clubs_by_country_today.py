@@ -22,7 +22,7 @@ with st.container():
         st.caption("Total Price")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=WNjgyN&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
             height=100,
-            width=200)
+            width=250)
 
 st.header('3. Typology of clubs by country today')
 
