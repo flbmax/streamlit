@@ -81,3 +81,4 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-
     height=700,
     width=1000)
 st.caption("*At least 3 authorised payments on the collections")
+st.divider()

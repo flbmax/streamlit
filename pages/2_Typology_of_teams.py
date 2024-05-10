@@ -43,3 +43,5 @@ st.write("Let's compare with France :")
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=UXJAjC&theme=horizon&opt=ctxmenu" ,
         height=500,
         width=1000)
+
+st.divider()
