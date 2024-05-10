@@ -24,21 +24,21 @@ st.subheader(':green[b. MAU]')
 #        width=1000)
 #st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
-col1, col2 = st.columns(2, gap='large')
-with col1:
-    st.subheader(':green[c. Teams]')
-    # teams created
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
-            height=500,
-            width=650)
-    st.caption('*using team.country_id to determine the country')
-with col2:
-    st.subheader(':green[d. Clubs]')
-    # clubs created
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
-            height=500,
-            width=650)
-multi = '''**NL = Netherlands + Flanders**
+
+st.subheader(':green[c. Teams]')
+# teams created
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=kxPqHuT&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=1000)
+st.caption('*using team.country_id to determine the country')
+st.caption('NL = Netherlands + Flanders (ie, "nl" as the default language of the team owner')
+
+st.subheader(':green[d. Clubs]')
+# clubs created
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=1000)
+multi = '''NL = Netherlands + Flanders (ie, 'nl' as the default language of the club owner)
 
 Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid
 
