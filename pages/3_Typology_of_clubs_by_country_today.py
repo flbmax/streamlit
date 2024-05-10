@@ -6,6 +6,24 @@ st.set_page_config(page_title="workshop-international", page_icon='sporteasy_log
 st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
+with st.container():
+    col1, col2, col3 = st.columns(3,gap='small')
+    with col1:
+        st.caption("Number of Clubs Clients")
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=yrHngPc&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
+            height=60,
+            width=100)
+    with col2:
+        st.caption("Current Sub Price")
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=huvHjt&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT" ,
+            height=60,
+            width=100)
+    with col3:
+        st.caption("Total Price")
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=WNjgyN&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
+            height=60,
+            width=100)
+
 st.header('3. Typology of clubs by country today')
 
 st.subheader(':green[a. Type Plan, Lifetime]')
@@ -32,13 +50,31 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     height=400,
     width=1700)
 
-st.subheader(':green[e. Clubs Region]')
+#st.subheader(':green[e. Main Features]')
+# 3 top used features based on health score
+#components.iframe(,
+#    height=400,
+#    width=1700)
+
+st.subheader(':green[f. Zoom on Collections]')
+# collections use
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=LUgqPXp&theme=horizon&opt=ctxmenu" ,
+    height=400,
+    width=1700)
+st.caption("The KYC France is juste here to compare the trend not the value ")
+
+# trellis with the activities by country
+components.iframe(,
+    height=400,
+    width=1700)
+
+st.subheader(':green[g. Clubs Region]')
 # map of the clubs
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
     height=600,
     width=2000)
 
-st.subheader(':green[f. Health Score]')
+st.subheader(':green[h. Health Score]')
 # clubs health score
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu",
     height=500,
