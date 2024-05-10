@@ -115,6 +115,6 @@ We can notice the high number of churn clubs and the low number of churn in turn
 
     3/ 1 monthly reacquired plan for the amount of 36,00 €
 
---> The net churn in turnover is therefore **955,36 €**
+:warning: The net churn in turnover is therefore **955,36 €**
 '''
 st.write(multi)
