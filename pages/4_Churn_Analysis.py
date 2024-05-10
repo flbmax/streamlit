@@ -107,7 +107,7 @@ with st.container():
                 width=100)
 
 multi = '''
-We can notice the high number of churn clubs and the low number of churn in turnover, why ? **3 reasons** :
+We can notice the high number of churn clubs and the low number of churn in turnover, why ? **3 reasons** 
 
     The churned clubs resulted in a loss of **2100,90 €** in 2024. 
 
