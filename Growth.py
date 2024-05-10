@@ -38,7 +38,9 @@ with col2:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=juSbKpp&theme=horizon&opt=ctxmenu",
             height=500,
             width=650)
-multi = '''Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid
+multi = '''**NL = Netherlands + Flanders**
+
+Client : at least one authorised payment or in chargeback status - hence no sponsored clubs that have never paid
 
 Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan
 '''
