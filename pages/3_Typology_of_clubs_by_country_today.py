@@ -50,13 +50,26 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     height=400,
     width=1700)
 
-st.subheader(':green[e. Main Features]')
+st.subheader(':green[e. Clubs Region]')
+# map of the clubs
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
+    height=600,
+    width=2000)
+
+st.subheader(':green[f. Health Score]')
+# clubs health score
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu",
+    height=500,
+    width=1000)
+st.write("The French trend is better : high-rated clubs are paying more")
+
+st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.country_id,ES,GB,IT,NL,PT&select=criteria::club.current_plan,Integral%20Plan,Monthly%20Plan,Yearly%20Plan",
     height=400,
     width=1700)
 
-st.subheader(':green[f. Zoom on Collections]')
+st.subheader(':green[h. Zoom on Collections]')
 # collections use
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=LUgqPXp&theme=horizon&opt=ctxmenu" ,
     height=400,
@@ -67,16 +80,3 @@ st.caption("The KYC France is juste here to compare the trend not the value ")
 #components.iframe(,
 #    height=400,
 #    width=1700)
-
-st.subheader(':green[g. Clubs Region]')
-# map of the clubs
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
-    height=600,
-    width=2000)
-
-st.subheader(':green[h. Health Score]')
-# clubs health score
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu",
-    height=500,
-    width=1000)
-st.write("The French trend is better : high-rated clubs are paying more")
