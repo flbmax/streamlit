@@ -11,18 +11,18 @@ with st.container():
     with col1:
         st.caption("Number of Clubs Clients")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=yrHngPc&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
-            height=60,
-            width=100)
+            height=100,
+            width=200)
     with col2:
         st.caption("Current Sub Price")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=huvHjt&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT" ,
-            height=60,
-            width=100)
+            height=100,
+            width=200)
     with col3:
         st.caption("Total Price")
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=WNjgyN&theme=horizon&opt=nointeraction,noselections&select=$::club.country_id,ES,GB,IT,NL,PT",
-            height=60,
-            width=100)
+            height=100,
+            width=200)
 
 st.header('3. Typology of clubs by country today')
 
