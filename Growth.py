@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.set_page_config(page_title="workshop-international", page_icon='sporteasy_logo.png', layout="wide")
+st.set_page_config(page_title="Workshop International", page_icon='sporteasy_logo.png', layout="wide")
 
 
 st.title(':flag-eu: :blue[Workshop International Team]')
@@ -15,14 +15,14 @@ st.subheader(':green[a. Profiles]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
-st.caption('*using profile.default_language to determine the country')
+st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
 st.subheader(':green[b. MAU]')
 # MAU
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
-        height=500,
-        width=1000)
-st.caption('*using profile.default_language to determine the country')
+#components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
+#        height=500,
+#        width=1000)
+#st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
 col1, col2 = st.columns(2, gap='large')
 with col1:
