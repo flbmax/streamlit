@@ -72,9 +72,9 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 st.subheader(':green[h. Zoom on Collections]')
 # collections use
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=wFGPbM&theme=horizon&opt=ctxmenu" ,
-    height=400,
-    width=1000)
-st.caption("The KYC France is juste here to compare the trend not the value ")
+    height=500,
+    width=1200)
+st.caption("The KYC France is just here to compare the trend not the value ")
 
 # trellis with the activities by country
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
