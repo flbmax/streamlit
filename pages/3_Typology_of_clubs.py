@@ -75,7 +75,7 @@ with st.container():
 
 st.subheader(':green[f. Health Score]')
 # clubs health score
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu",
     height=500,
     width=1000)
 st.write("The French trend is better : high-rated clubs are paying more")
@@ -92,10 +92,16 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-
     height=500,
     width=1100)
 st.caption("The KYC France is just here to compare the trend not the value ")
+st.caption("Data from 01/01/2022")
 
 # trellis with the activities by country
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
-    height=700,
-    width=1000)
-st.caption("*At least 3 authorised payments on the collections")
-st.divider()
+with st.container():
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
+        height=700,
+        width=1000)
+    st.caption("*At least 3 authorised payments on the collections")
+    st.divider()
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=LPhAzR&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=500)
+    st.caption('BE = Flanders, only dutch speaking part')
