@@ -95,13 +95,8 @@ st.caption("The KYC France is just here to compare the trend not the value ")
 st.caption("Data from 01/01/2022")
 
 # trellis with the activities by country
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
-        height=700,
-        width=1000)
-    st.caption("*At least 3 authorised payments on the collections")
-    st.divider()
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=LPhAzR&theme=horizon&opt=ctxmenu",
-        height=500,
-        width=500)
-    st.caption('BE = Flanders, only dutch speaking part')
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
+    height=700,
+    width=1000)
+st.caption("*At least 3 authorised payments on the collections")
+st.divider()
