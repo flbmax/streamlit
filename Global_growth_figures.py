@@ -17,7 +17,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 rq= '''
-        -> International follow the FR trend (+78% vs +19% for FR) but don't activate his profiles (-3,3% vs +12,5%)
+       1. International follow the FR trend (+78% vs +19% for FR) but don't activate his profiles (-3,3% vs +12,5%)
                 -> Activated = becoming an user
 '''
 st.write(rq)
