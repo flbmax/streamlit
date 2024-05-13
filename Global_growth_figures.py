@@ -19,9 +19,9 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.subheader(':green[b. MAU]')
 # MAU
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=bb985210-f17b-480a-abf5-40a9654b8576&obj=ACpgM&theme=horizon&opt=ctxmenu",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
         height=500,
-        width=1000)
+        width=1100)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt" starting from **01/01/2022**')
 
 
