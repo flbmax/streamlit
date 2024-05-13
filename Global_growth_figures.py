@@ -25,7 +25,7 @@ st.write(rq)
 
 st.markdown(
     """
-    <div style="background-color: lightgrey; padding: 10px;">
+    <div style="background-color: lightgrey; padding: 5px;">
         <h3>Texte avec fond gris</h3>
         <p>Ce texte a un arrière-plan gris.</p>
     </div>
