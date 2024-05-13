@@ -19,7 +19,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.markdown(
     """
-    <div style="background-color:rgb(237, 240, 243); padding: 10px; margin-bottom: 5px;">
+    <div style="background-color:rgb(237, 240, 243); padding: 10px; margin-bottom: 10px; margin-top: 10px;">
         <p>Inter follows the FR trend(+78% vs +19% for FR) but don't activate his profiles (-3,3% vs +12,5%)
         <br>Activated = becoming an user</p>
     </div>
