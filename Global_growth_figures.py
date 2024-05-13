@@ -30,7 +30,7 @@ st.markdown(
         <p>Ce texte a un arrière-plan gris.</p>
     </div>
     """,
-    unsafe_allow_html=True  
+    unsafe_allow_html=True  )
 
 st.subheader(':green[b. MAU]')
 # MAU
