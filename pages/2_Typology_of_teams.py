@@ -18,18 +18,18 @@ st.subheader(':green[b. Sport]')
 # sport pie chart
 components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=qAZaPTn&theme=horizon&opt=ctxmenu",
     height=700,
-    width=1000)
+    width=1700)
 
 
 st.subheader(':green[c. First Source]')
 # first source pie chart
 with st.container():
         components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=ssTyVB&theme=horizon&opt=ctxmenu",
-        height=700,
-        width=1000)
+                height=700,
+                width=1700)
         components.iframe( "https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=sPTEbw&theme=horizon&opt=ctxmenu",
-        height=700,
-        width=200)
+                height=700,
+                width=200)
         st.caption('BE = Flanders, only dutch speaking part')
 
 st.subheader(':green[d. Activation Analysis]')
