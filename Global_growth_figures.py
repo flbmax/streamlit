@@ -19,7 +19,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.markdown(
     """
-    <div style="background-color:rgb(148, 227, 168); padding: 20px;color: white; border-radius: 10px;">
+    <div style="background-color:rgb(148, 227, 168); padding: 20px;color: white; border-radius: 30px;">
         <p>- International teams follow the french trend (+78% vs +19% for FR) but <b>don't activate</b> his profiles (-3,3% vs +12,5%)
         <br>- There is no particular trend for non-english countries
         <br>- English countries have the same behaviour than France : the market is more ready than Spain for example, <b>virality has already begun</b>.</p>
