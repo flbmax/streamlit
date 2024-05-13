@@ -21,7 +21,7 @@ st.markdown(
     """
     <div style="background-color:rgb(237, 240, 243); padding: 30px;">
         <p>
-        Inter follows the FR trend(+78% vs +19% for FR) but don't activate his profiles (-3,3% vs +12,5%)
+        Inter follows the FR trend(+78% vs +19% for FR) but don't activate his profiles (-3,3% vs +12,5%)/n
         Activated = becoming an user
         </p>
     </div>
