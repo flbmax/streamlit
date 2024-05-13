@@ -56,7 +56,7 @@ with st.container():
 st.subheader(':green[c. Churn rates YoY]')
 # compare churn rates in number of clubs & amount
 with st.container():
-    st.write("% turnover")
+    st.write("% renewed turnover")
     col1, col2, col3, col4, col5, col6 = st.columns(6, gap="small")
     with col1:
         st.caption("2019")
@@ -91,7 +91,7 @@ with st.container():
         
         
     with st.container():
-        st.write("number of clubs")
+        st.write("% churned clubs")
         col1, col2, col3, col4, col5, col6 = st.columns(6, gap="small")
         with col1:
             st.caption("2019")

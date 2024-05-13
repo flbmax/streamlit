@@ -92,7 +92,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-
     height=500,
     width=1100)
 st.caption("The KYC France is just here to compare the trend not the value ")
-st.caption("Data from 01/01/2022")
+st.caption("Data from **01/01/2022**")
 
 # trellis with the activities by country
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
