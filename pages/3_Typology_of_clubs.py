@@ -75,10 +75,14 @@ with st.container():
 
 st.subheader(':green[f. Health Score]')
 # clubs health score
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu",
-    height=500,
-    width=1000)
-st.write("The French trend is better : high-rated clubs are paying more")
+with st.container():
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=1000)
+    st.write("The French trend is better : high-rated clubs are paying more")
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=djJuzXE&theme=horizon&opt=ctxmenu",
+        height=500,
+        width=500)
 
 st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
