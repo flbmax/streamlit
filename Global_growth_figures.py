@@ -23,6 +23,15 @@ rq= '''
 '''
 st.write(rq)
 
+st.markdown(
+    """
+    <div style="background-color: lightgrey; padding: 10px;">
+        <h3>Texte avec fond gris</h3>
+        <p>Ce texte a un arrière-plan gris.</p>
+    </div>
+    """,
+    unsafe_allow_html=True  
+
 st.subheader(':green[b. MAU]')
 # MAU
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=bb985210-f17b-480a-abf5-40a9654b8576&obj=ACpgM&theme=horizon&opt=ctxmenu",
