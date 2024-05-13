@@ -46,9 +46,13 @@ st.caption("We can notice a global saisonnality every year !")
 
 st.subheader(':green[e. Teams Purposes Analysis]')
 # purpose
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
-        height=1000,
-        width=3000)
+with st.container():
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
+                height=1000,
+                width=3000)
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=Srmp&theme=horizon&opt=ctxmenu",
+                height=1000,
+                width=700)
 
 st.write("Let's compare with France :")
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=UXJAjC&theme=horizon&opt=ctxmenu" ,
