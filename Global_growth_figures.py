@@ -20,7 +20,9 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 st.markdown(
     """
     <div style="background-color:rgb(237, 240, 243); padding: 20px;">
-        <p>International teams follow the french trend (+78% vs +19% for FR) but <b>don't activate</b> his profiles (-3,3% vs +12,5%)</p>
+        <p>- International teams follow the french trend (+78% vs +19% for FR) but <b>don't activate</b> his profiles (-3,3% vs +12,5%)
+        <br>- There is no particular trend for non-english countries
+        <br>- English countries have the same behaviour than France : the market is more ready than Spain for example, <b>virality has already begun</b>.</p>
     </div>
     """,
     unsafe_allow_html=True  )
