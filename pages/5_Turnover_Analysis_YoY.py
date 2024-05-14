@@ -11,6 +11,11 @@ with st.sidebar:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=BtJcuV&theme=horizon&opt=ctxmenu",
         height=140,
         width=200)
+    
+    st.write("Choose the country:")
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=JgvMp&theme=horizon&opt=ctxmenu",
+        height=140,
+        width=200)
 
 st.header('5. Turnover Analysis YoY')
 st.caption('by country from 01/01/2019 to today')
