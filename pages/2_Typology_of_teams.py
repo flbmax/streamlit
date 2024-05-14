@@ -13,6 +13,7 @@ st.subheader(':green[a. Type Plan, Group Type, Gender, Device]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=SJrNx&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 st.subheader(':green[b. Sport]')
 # sport pie chart
@@ -35,16 +36,14 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         height=500,
         width=1000)
 st.caption("We can notice a global saisonnality every year !")
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 st.subheader(':green[e. Teams Purposes Analysis]')
 # purpose
-with st.container():
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
-                height=1000,
-                width=3000)
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=NeAzEt&theme=horizon&opt=ctxmenu",
-                height=500,
-                width=1000)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=jdXpj&theme=horizon&opt=ctxmenu",
+        height=1000,
+        width=3000)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 st.write("Let's compare with France :")
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=UXJAjC&theme=horizon&opt=ctxmenu" ,
