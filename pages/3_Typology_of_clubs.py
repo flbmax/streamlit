@@ -10,17 +10,17 @@ with st.container():
     col1, col2, col3 = st.columns(3,gap='small')
     with col1:
         st.caption("Number of Clubs Clients")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=yrHngPc&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT",
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=yrHngPc&theme=horizon&opt=nointeraction,noselections",
             height=100,
             width=170)
     with col2:
         st.caption("Current Sub Price")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=huvHjt&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT" ,
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=huvHjt&theme=horizon&opt=nointeraction,noselections" ,
             height=100,
             width=220)
     with col3:
         st.caption("Total Price")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=WNjgyN&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT",
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=WNjgyN&theme=horizon&opt=nointeraction,noselections",
             height=100,
             width=250)
 
