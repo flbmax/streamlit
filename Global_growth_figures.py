@@ -29,7 +29,7 @@ st.markdown(
 
 st.markdown(
     """
-    <div style="display: flex; flex-direction: column; justify-content: center; height: 100vh;">
+    <div style="display: flex; flex-direction: column; justify-content: center; height: 10vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- International teams follow the French trend (+78% vs +19% for FR) but <b>don't activate</b> their profiles (-3.3% vs +12.5%)
             <br>- There is no particular trend for non-English countries
