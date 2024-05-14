@@ -13,17 +13,17 @@ with st.container():
     col1, col2, col3 = st.columns(3,gap='small')
     with col1:
         st.caption("Number of Churn")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=ztXWgsj&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT",
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=ztXWgsj&theme=horizon&opt=nointeraction,noselections",
             height=100,
             width=170)
     with col2:
         st.caption("2024 Loss")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=jhLZm&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT" ,
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=jhLZm&theme=horizon&opt=nointeraction,noselections" ,
             height=100,
             width=220)
     with col3:
         st.caption("Total Loss")
-        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=BGyEw&theme=horizon&opt=nointeraction,noselections&select=4-workshop::club.country_id,ES,GB,IT,NL,PT",
+        components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=BGyEw&theme=horizon&opt=nointeraction,noselections",
             height=100,
             width=250)
 
@@ -34,11 +34,11 @@ with st.container():
         width=400)
     # results
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Btfjt&theme=horizon&opt=ctxmenu",
-        height=300,
+        height=400,
         width=650)
     # target
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=tNSLpW&theme=horizon&opt=ctxmenu",
-        height=300,
+        height=400,
         width=650)
 
 
