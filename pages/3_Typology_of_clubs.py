@@ -64,13 +64,10 @@ with st.container():
 
 st.subheader(':green[e. Clubs Region]')
 # map of the clubs
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
-        height=600,
-        width=2000)
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=aMdwJE&theme=horizon&opt=ctxmenu",
-        height=600,
-        width=600)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=CJLgCDy&theme=horizon&opt=ctxmenu",
+    height=600,
+    width=2000)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 
 st.subheader(':green[f. Health Score]')
