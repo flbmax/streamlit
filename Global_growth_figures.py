@@ -90,6 +90,17 @@ Client : at least one authorised payment or in chargeback status - hence no spon
 Churn : the club has paid at least once in SportEasy and is now under a Free Plan or Free Trial Plan
 '''
 st.write(multi)
+
+st.markdown(
+    """
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
+            <p>- Spread of the seasonnality (lot of July 2022)</p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 st.divider()
 
 
