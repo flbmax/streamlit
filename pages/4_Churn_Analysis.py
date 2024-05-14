@@ -28,9 +28,6 @@ with st.container():
             width=250)
 
 st.subheader(':green[a. Targets & Results]')
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=pPztQA&theme=horizon&opt=ctxmenu",
-    height=60,
-    width=400)
 with st.container():
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=hJUtP&theme=horizon&opt=ctxmenu",
         height=60,
