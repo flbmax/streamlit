@@ -127,13 +127,13 @@ with st.container():
 multi = '''
 We can notice the high number of churn clubs and the low number of churn in turnover, why ? **3 reasons** :
 
-    1/ The churned clubs resulted in a loss of 2100,90 € in 2024. 
+    1/ The churned clubs resulted in a loss of 2236,90 € in 2024. 
 
-    2/ The upsell on renewed clubs was 1109,54 € in 2024
+    2/ The upsell on renewed clubs was 1196,34 € in 2024
 
     3/ 1 monthly reacquired plan for the amount of 36,00 €
 
-:warning: The net churn in turnover is therefore **955,36 €**
+:warning: The net churn in turnover is therefore **1004,56 €**
 '''
 st.write(multi)
 st.divider()
