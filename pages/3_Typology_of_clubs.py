@@ -6,6 +6,12 @@ st.set_page_config(page_title="workshop-international", page_icon='sporteasy_log
 st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
+with st.sidebar:
+    st.write("Choose the team type plan :")
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=BtJcuV&theme=horizon&opt=ctxmenu",
+        height=140,
+        width=200)
+
 with st.container():
     col1, col2, col3 = st.columns(3,gap='small')
     with col1:
@@ -31,6 +37,7 @@ st.subheader(':green[a. Type Plan, Lifetime]')
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=LZWsLQr&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 st.subheader(':green[b. Sport]')
 # sport pie chart
@@ -67,20 +74,20 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.subheader(':green[f. Health Score]')
 # clubs health score
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu" ,
-        height=500,
-        width=1000)
-    st.write("The French trend is better : high-rated clubs are paying more")
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=djJuzXE&theme=horizon&opt=ctxmenu",
-        height=500,
-        width=700)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=thLrd&theme=horizon&opt=ctxmenu" ,
+    height=500,
+    width=1000)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+st.write("The French trend is better : high-rated clubs are paying more")
+
 
 st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu",
     height=220,
     width=800)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
 
 st.subheader(':green[h. Zoom on Collections]')
 # collections use
