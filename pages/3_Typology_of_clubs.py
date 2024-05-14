@@ -34,33 +34,28 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 
 st.subheader(':green[b. Sport]')
 # sport pie chart
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=sgmqJ&theme=horizon&opt=ctxmenu",
-        height=400,
-        width=1700)
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mTXMuk&theme=horizon&opt=ctxmenu",
-        height=500,
-        width=500)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=sgmqJ&theme=horizon&opt=ctxmenu",
+    height=400,
+    width=1700)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
 
 st.subheader(':green[c. # Members in clubs]')
 # members in clubs pie chart
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Rthqzs&theme=horizon&opt=ctxmenu",
-        height=400,
-        width=1700)
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=SsuwgdV&theme=horizon&opt=ctxmenu",
-        height=400,
-        width=400)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Rthqzs&theme=horizon&opt=ctxmenu",
+    height=400,
+    width=1700)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
+
     
 st.subheader(':green[d. # Teams in clubs]')
 # teams in clubs pie chart
-with st.container():
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=MdyY&theme=horizon&opt=ctxmenu",
-        height=400,
-        width=1700)
-    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=XzTeVq&theme=horizon&opt=ctxmenu",
-        height=400,
-        width=400)
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=MdyY&theme=horizon&opt=ctxmenu",
+    height=400,
+    width=1700)
+st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
 
 st.subheader(':green[e. Clubs Region]')
 # map of the clubs
