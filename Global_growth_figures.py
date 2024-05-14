@@ -23,8 +23,21 @@ st.markdown(
         <p>- International teams follow the french trend (+78% vs +19% for FR) but <b>don't activate</b> his profiles (-3,3% vs +12,5%)
         <br>- There is no particular trend for non-english countries
         <br>- English countries have the same behaviour than France : the market is more ready than Spain for example, <b>virality has already begun</b>.</p>
-    </div>""",
+    </div>
+    """,
     unsafe_allow_html=True)
+
+st.markdown(
+    """
+    <div style="display: flex; flex-direction: column; justify-content: center; height: 100vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
+            <p>- International teams follow the French trend (+78% vs +19% for FR) but <b>don't activate</b> their profiles (-3.3% vs +12.5%)
+            <br>- There is no particular trend for non-English countries
+            <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
 
 
 st.subheader(':green[b. MAU]')
