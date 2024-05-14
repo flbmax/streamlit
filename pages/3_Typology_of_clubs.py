@@ -83,7 +83,7 @@ with st.container():
 
 st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu&select=5-workshop::club.country_id,ES,GB,IT,NL,PT&select=5-workshop::club.current_plan,Integral%20Plan,Monthly%20Plan,Yearly%20Plan",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=YJhfvBP&theme=horizon&opt=ctxmenu",
     height=220,
     width=800)
 
