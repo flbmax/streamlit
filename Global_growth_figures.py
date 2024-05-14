@@ -9,8 +9,8 @@ st.markdown('2024-05-21')
 
 with st.sidebar:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=BtJcuV&theme=horizon&opt=ctxmenu",
-        height=60,
-        width=400)
+        height=400,
+        width=100)
 
 st.header('1. Growth in number of profiles, teams & clubs')
 st.caption('by country from 01/01/2019 to today')
