@@ -18,7 +18,7 @@ st.caption('by country from 01/01/2019 to today')
 
 st.subheader(':green[a. Profiles]')
 # profiles created
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=mzCzqu&theme=horizon&opt=ctxmenu",
+components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=Lhvbszb&theme=horizon&opt=ctxmenu",
         height=500,
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
@@ -29,6 +29,7 @@ st.markdown(
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- International teams follow the French trend (+78% vs +19% for FR) but <b>don't activate</b> their profiles (-3.3% vs +12.5%)
             <br>- There is no particular trend for non-English countries
+            <br>- Because of clubs with months of discount ; they add members but do not invite them ? 
             <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
         </div>
     </div>""",
