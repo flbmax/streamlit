@@ -77,7 +77,8 @@ st.markdown(
     <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- International teams follow the French trend (-22% vs -25% for FR) but their activation rate rise a bit (France drops proportionnaly to the team creation rates)
-            <br>- The trends are the same for all countries</p>
+            <br>- The trends are the same for all countries
+            <br>- Check https://sporteasy-bi.eu.qlikcloud.com/sense/app/fe30758a-8efe-48e4-943d-367693619486/sheet/bb3354f0-125b-4a8c-966e-3e2eb2c3088f/state/analysis/hubUrl/%2Fcatalog%3Fquick_search_filter%3Dteam</p>
         </div>
     </div>""",
     unsafe_allow_html=True
