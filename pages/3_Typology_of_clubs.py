@@ -6,6 +6,12 @@ st.set_page_config(page_title="workshop-international", page_icon='sporteasy_log
 st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
+with st.sidebar: 
+    st.write("Choose the club country:")
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=bjAJDAZ&theme=horizon&opt=ctxmenu",
+        height=140,
+        width=200)
+
 with st.container():
     col1, col2, col3 = st.columns(3,gap='small')
     with col1:
