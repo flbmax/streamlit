@@ -8,12 +8,12 @@ st.title(':flag-eu: :blue[Workshop International Team]')
 st.markdown('2024-05-21')
 
 with st.sidebar:
-    st.write("Choose the team type plan :")
+    st.write("Choose the current team type plan :")
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=BtJcuV&theme=horizon&opt=ctxmenu",
         height=140,
         width=200)
     
-    st.write("Choose the country:")
+    st.write("Choose the team country:")
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=JgvMp&theme=horizon&opt=ctxmenu",
         height=140,
         width=200)
