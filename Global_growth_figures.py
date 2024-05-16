@@ -17,6 +17,11 @@ with st.sidebar:
     components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-8efe-48e4-943d-367693619486&obj=JgvMp&theme=horizon&opt=ctxmenu",
         height=140,
         width=200)
+    
+    st.write("Choose the club country:")
+    components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=bjAJDAZ&theme=horizon&opt=ctxmenu",
+        height=140,
+        width=200)
 
 st.header('1. Growth in number of profiles, teams & clubs')
 st.caption('by country from 01/01/2019 to today')
