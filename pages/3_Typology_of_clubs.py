@@ -50,8 +50,8 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 st.subheader(':green[c. # Members in clubs]')
 # members in clubs pie chart
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=Rthqzs&theme=horizon&opt=ctxmenu",
-    height=400,
-    width=1700)
+    height=500,
+    width=1000)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 
