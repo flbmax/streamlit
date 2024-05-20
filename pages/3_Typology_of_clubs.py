@@ -89,13 +89,13 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
 
-st.subheader(':green[h. Zoom on Collections]')
+#st.subheader(':green[h. Zoom on Collections]')
 # collections use
-components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=wFGPbM&theme=horizon&opt=ctxmenu" ,
-    height=500,
-    width=1100)
-st.caption("The KYC France is just here to compare the trend not the value ")
-st.caption("Data from **01/01/2022**")
+#components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=wFGPbM&theme=horizon&opt=ctxmenu" ,
+#    height=500,
+#    width=1100)
+#st.caption("The KYC France is just here to compare the trend not the value ")
+#st.caption("Data from **01/01/2022**")
 
 # trellis with the activities by country
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=208348cd-dc03-46da-a1d4-4047cedf6f77&obj=djFv&theme=horizon&opt=ctxmenu",
