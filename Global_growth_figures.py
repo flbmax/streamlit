@@ -34,6 +34,9 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
+
+st.markdown('**This text will be bold**')
+
 txt = st.text_area(
     "Remarks :",
     "- International teams follow the French YoY trend but can't get on track like in  France and activate less their profiles\n"
