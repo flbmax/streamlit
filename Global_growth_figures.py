@@ -1,7 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
-from streamlit_extras.stylable_container import stylable_container
+import streamlit_extras
+#from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(page_title="Workshop International", page_icon='sporteasy_logo.png', layout="wide")
 
