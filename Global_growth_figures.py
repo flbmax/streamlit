@@ -1,5 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
+import pandas as pd
 
 st.set_page_config(page_title="Workshop International", page_icon='sporteasy_logo.png', layout="wide")
 
@@ -33,11 +34,25 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
+st.write('France Analysis')
+df_profiles = pd.DataFrame(columns=['Months','YoY', 'amplitude % previous month','amplitude % previous month 2024'])
+df_profiles['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
+df_profiles['YoY'] = ['+ 13,6%', '- 15,5%','- 9,9%','- 11,7 %','+ 17,6%']
+df_profiles['amplitude % previous month 2023'] = ['', '+ 56,8%','- 25,9%','+ 7,4 %','- 37,2%']
+df_profiles['amplitude % previous month 2024'] = ['', '+ 16,7%','- 21,1%','+ 5,4 %','- 16,3%']
+
+st.write('International Analysis')
+df_profiles = pd.DataFrame(columns=['Months','YoY', 'amplitude % previous month','amplitude % previous month 2024'])
+df_profiles['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
+df_profiles['YoY'] = ['+ 20,0%', '- 4,6%','- 1,7%','- 20,7 %','- 8,9%']
+df_profiles['amplitude % previous month 2023'] = ['', '+ 79,7%','- 18,4%','+ 12,5 %','- 26,4%']
+df_profiles['amplitude % previous month 2024'] = ['', '+ 42,9%','- 13,0%','+ 12,3 %','- 15,4%']
+
 st.markdown(
     """
     <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- International teams follow the French trend (+78% vs +19% for FR) but <b>don't activate</b> their profiles (-3.3% vs +12.5%)
+            <p>- International teams follow the French trend (apart in April) but <b>activate less</b> their profiles
             <br>- There is no particular trend for non-English countries
             <br>- Because of clubs with months of discount ; they add members but do not invite them ? 
             <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
