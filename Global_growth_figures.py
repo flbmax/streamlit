@@ -40,7 +40,7 @@ txt = st.text_area(
     "- Global reduce in amplitude for all. Warning for March 24 amplitude compared to March 23 for International team\n"
     "- Harold hypothesis is thant non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again"
     ,
-    height=150)
+    height=130)
 
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
