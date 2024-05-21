@@ -34,7 +34,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
-
+st.text('**This is some text.**')
 txt = st.text_area(
     "Remarks :",
     "- International teams follow the French YoY trend but :red[can't get on track] like in  France and :red[activate less] their profiles\n"
@@ -48,18 +48,6 @@ if txt is not None:
 
     for x in textsplit:
         st.write(x)
-
-custom_css = '''
-    <style>
-        div.css-1om1ktf.e1y61itm0 {
-          width: 800px;
-        }
-        textarea.st-cl {
-          height: 400px;
-        }
-    </style>
-    '''
-st.markdown(custom_css, unsafe_allow_html=True)
 
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
