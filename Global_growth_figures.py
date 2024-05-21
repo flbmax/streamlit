@@ -37,7 +37,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
 df_profiles_france['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
-df_profiles_france['YoY'] = [":green[+ 13,6%]", '- 15,5%','- 9,9%','- 11,7 %','+ 17,6%']
+df_profiles_france['YoY'] = ['+ 13,6%', '- 15,5%','- 9,9%','- 11,7 %','+ 17,6%']
 df_profiles_france['amplitude % previous month 2023'] = ['', '+ 56,8%','- 25,9%','+ 7,4 %','- 37,2%']
 df_profiles_france['amplitude % previous month 2024'] = ['', '+ 16,7%','- 21,1%','+ 5,4 %','- 16,3%']
 st.table(df_profiles_france)
