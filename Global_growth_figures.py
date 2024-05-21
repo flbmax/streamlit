@@ -48,6 +48,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
 df_profiles_france['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
