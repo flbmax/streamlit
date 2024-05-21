@@ -76,12 +76,12 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.markdown(
     """
-    <div style="display: block; height: 20vh;">
+    <div style="display: block; height: 25vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
-                <p>- Seasonnality is exactly the same
+                <p>- Seasonnality is exactly the same; MAU growth is too low in international
                 <br>- International MAU goes from 100k -> 130k -> 150k i.e. +30% -> +15%
                 <br>- Where France MAU goes from 400k -> 550k -> 720k i.e. +38% -> +31%
-                <br>- International MAU growth <b>should be more stable</b></p>
+                <br>- Teams creation and profiles creation are disparate : our new teams are scattered in Europe (and in the world), we do not create (or less) clusters empowering word-to-mouth (which provides the best activation source in France). The new users come from diverse sources and activate less (not agree)</p>
         </div>
     </div>""",
     unsafe_allow_html=True
