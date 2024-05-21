@@ -34,6 +34,20 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
+
+st.markdown(
+    """
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
+            <p>- International teams follow the French trend (apart in March) but <b>activate less</b> their profiles
+            <br>- There is no particular trend for non-English countries
+            <br>- Because of clubs with months of discount ; they add members but do not invite them ? 
+            <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
 df_profiles_france['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
@@ -49,21 +63,6 @@ df_profiles_int['YoY'] = ['+ 20,0%', '- 4,6%','- 1,7%','- 20,7 %','- 8,9%']
 df_profiles_int['amplitude % previous month 2023'] = ['', '+ 79,7%','- 18,4%','+ 12,5 %','- 26,4%']
 df_profiles_int['amplitude % previous month 2024'] = ['', '+ 42,9%','- 13,0%','+ 12,3 %','- 15,4%']
 st.table(df_profiles_int)
-
-
-
-st.markdown(
-    """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
-        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- International teams follow the French trend (apart in April) but <b>activate less</b> their profiles
-            <br>- There is no particular trend for non-English countries
-            <br>- Because of clubs with months of discount ; they add members but do not invite them ? 
-            <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
-        </div>
-    </div>""",
-    unsafe_allow_html=True
-)
 
 st.subheader(':green[b. MAU]')
 # MAU
