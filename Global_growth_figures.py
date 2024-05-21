@@ -100,8 +100,14 @@ st.markdown(
     """
     <div style="display: block; height: 25vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
-                <p>- Still a <b>huge problem</b> of international teams activation despite some updgrades on onboarding: void modes, carousels
-                <br>- - Check https://sporteasy-bi.eu.qlikcloud.com/sense/app/fe30758a-8efe-48e4-943d-367693619486/sheet/bb3354f0-125b-4a8c-966e-3e2eb2c3088f/state/analysis/hubUrl/%2Fcatalog%3Fquick_search_filter%3Dteam</p>
+                <p>- Check https://sporteasy-bi.eu.qlikcloud.com/sense/app/fe30758a-8efe-48e4-943d-367693619486/sheet/bb3354f0-125b-4a8c-966e-3e2eb2c3088f/state/analysis/hubUrl/%2Fcatalog%3Fquick_search_filter%3Dteam
+                <p>- Still a <b>huge problem</b> of international teams activation despite some updgrades on onboarding: void modes, carousels, path of teams creation ...)
+                <p>- Why teams do not even go A1 ?
+                <p>- Do users understand the use of SE ?
+                <p>- Are they qualify ? Is this what they were looking for ?
+                <p>- Don't they dare involve their members ?
+                <p>-  Club Teams do activate better than others ? Yes a bit but the huge difference is for A2
+                <p><b>Note:</b> A study conducted by Ana and Harold in 2022 for Spain (calling a dozens of inactive created teams) showed that users created teams were well-qualified (they were coaches) but they did not get the purpose of SE</p>
         </div>
     </div>""",
     unsafe_allow_html=True
@@ -122,9 +128,10 @@ st.write(multi)
 
 st.markdown(
     """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
-        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- Spread of the seasonnality (lot of July 2022)</p>
+    <div style="display: block; height: 25vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- Number of new clubs increase in countries where ressources are put. Need to have fulltime sales to improve acquisition. Starting from scratch before beginning. We expect to pass the 100-customer mark in the near future for ES, IT and the UK. For instance, in ES, we were down to a dozen customer clubs by 2022 (4k€ of turnover) and we are now at 78 clients clubs (31k€ of turnover). But <b>we are not moving fast enough</b> compare to the international competition
+                <p>- Now, the biggest challenge is to keep clients. AM is essential for the future, let's see churn figures later.</p>
         </div>
     </div>""",
     unsafe_allow_html=True

@@ -88,6 +88,17 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     width=800)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
+st.markdown(
+    """
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
+            <p>- KNVB has a collab with Sportlink : dutch clubs have access to Sportlink Club.Basis and Club.Contribute products. It's administration tools.
+            <p>- The Organisation and Communication tools are not in it (maybe juste a basis) : that's why some NL teams are interested in attendances ? Explianing the high Premium rates ?</p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 
 #st.subheader(':green[h. Zoom on Collections]')
 # collections use
