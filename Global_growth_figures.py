@@ -40,10 +40,10 @@ st.markdown(
     <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- International teams follow the French YoY trend but **can't get on track** like in  France and <b>activate less</b> their profiles
-            <p>- Global reduce in amplitude. Warning for 
-            <br>- There is no particular trend for non-English countries
-            <br>- Because of clubs with months of discount ; they add members but do not invite them ? 
-            <br>- English-speaking countries exhibit the same behavior as France: the market is more ready than Spain, for example, <b>virality has already begun</b>.</p>
+            <p>- Global reduce in amplitude for all. **Warning for March 24 amplitude compared to March 23 for International team**
+            <p>- Because of clubs with months of discount ; they add members but do not invite them ? 
+            <p>- Harold hypothesis is thant non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again.
+           </p>
         </div>
     </div>""",
     unsafe_allow_html=True
