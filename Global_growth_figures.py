@@ -48,16 +48,18 @@ if txt is not None:
 
     for x in textsplit:
         st.write(x)
-        
+
 custom_css = '''
     <style>
         div.css-1om1ktf.e1y61itm0 {
           width: 800px;
         }
+        textarea.st-cl {
+          height: 400px;
+        }
     </style>
     '''
 st.markdown(custom_css, unsafe_allow_html=True)
-user_input = st.text_area("Type your text here:", height=400)
 
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
