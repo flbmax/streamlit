@@ -62,8 +62,8 @@ st.write('**International Analysis**')
 df_profiles_int = pd.DataFrame()
 df_profiles_int['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
 df_profiles_int['YoY'] = ['+ 20,0%', '- 4,6%','- 1,7%','- 20,7 %','- 8,9%']
-df_profiles_int['amplitude % previous month 2023'] = ['', '+ 79,7%','- 18,4%','+ 12,5 %','- 26,4%']
-df_profiles_int['amplitude % previous month 2024'] = ['', '+ 42,9%','- 13,0%','- 12,3 %','- 15,4%']
+df_profiles_int['amplitude % previous month 2023'] = ['', '+ 79,7%','- 18,4%','**+ 12,5 %**','- 26,4%']
+df_profiles_int['amplitude % previous month 2024'] = ['', '+ 42,9%','- 13,0%','**- 12,3 %**','- 15,4%']
 st.table(df_profiles_int)
 
 st.subheader(':green[b. MAU]')
