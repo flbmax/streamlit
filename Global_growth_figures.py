@@ -38,7 +38,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 txt = st.text_area(
     "Remarks :",
     "- International teams follow the French YoY trend but :red[can't get on track] like in  France and :red[activate less] their profiles\n"
-    "- Global reduce in amplitude for all. **Warning for March 24 amplitude compared to March 23 for International team**"
+    "- Global reduce in amplitude for all. **Warning for March 24 amplitude compared to March 23 for International team**\n"
     "- Harold hypothesis is thant non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again"
     ,
     )
@@ -48,6 +48,16 @@ if txt is not None:
 
     for x in textsplit:
         st.write(x)
+        
+custom_css = '''
+    <style>
+        div.css-1om1ktf.e1y61itm0 {
+          width: 800px;
+        }
+    </style>
+    '''
+st.markdown(custom_css, unsafe_allow_html=True)
+user_input = st.text_area("Type your text here:", height=400)
 
 st.write('**France Analysis**')
 df_profiles_france = pd.DataFrame()
