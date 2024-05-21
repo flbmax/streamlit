@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
-#from streamlit_extras.stylable_container import stylable_container
+from streamlit_extras.stylable_container import stylable_container
 
 st.set_page_config(page_title="Workshop International", page_icon='sporteasy_logo.png', layout="wide")
 
@@ -35,24 +35,17 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
-#with stylable_container(
-#    key="markdown_container",
-#    css_styles="""
-#    {
-#        background-color: grey;
-#        border-radius: 1em;
-#        padding: 0.5em;
-#    }
-#    """
-#):
-#    st.markdown("test")
-
-from streamlit_extras.stoggle import stoggle
-
-stoggle(
-    "Click me!",
-    """🥷 Surprise! Here's some additional content""",
-)
+with stylable_container(
+    key="markdown_container",
+    css_styles="""
+    {
+        background-color: grey;
+        border-radius: 1em;
+        padding: 0.5em;
+    }
+    """
+):
+    st.markdown("test")
 
 st.markdown(
     """
