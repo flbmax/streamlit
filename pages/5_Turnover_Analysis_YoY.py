@@ -37,4 +37,19 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         height=500,
         width=1000)
 
+st.markdown(
+    """
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- <b>Global Revenue Figures :</b>
+                        <p>* Forecast of 224 000€ INT (with 27% premium vs 41% in 2023)
+                        <p>* 18% in FR in 2023
+                        <p>* 61% in NL in 2023
+                <p><b>62%</b> churn Premium INT / 57% in NL / 40 000€ loss in FR
+                </p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 st.divider()

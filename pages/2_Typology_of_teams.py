@@ -25,13 +25,16 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         height=500,
         width=1000)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
 st.markdown(
     """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
-        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- High Premium rates in NL compared to other countries (event France) but much smaller rate of club : <b>market of premium opportunities ?</b>
-            <br>- The trends are the same for all countries
-            <br>- A seasonnality exists in team creation but does not follow in profiles creation i.e. coachs create their team but does not invite players : <b>onboarding issue</b>.</p>
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- High Premium rates in NL compared to other countries (even France) but much smaller rate of club teams : <b>market of premium opportunities ?</b>
+                <br>- 9500 members in Premium NL vs 4600 members in Club NL
+                <br>- 76% yearly plan -> web !
+                <br>- 80% club team & 80% football
+                </p>
         </div>
     </div>""",
     unsafe_allow_html=True
