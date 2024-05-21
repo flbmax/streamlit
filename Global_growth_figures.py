@@ -71,7 +71,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.markdown(
     """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 17vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
                 <p>- Seasonnality is exactly the same
                 <br>- International MAU goes from 100k -> 130k -> 150k i.e. +30% -> +15%
