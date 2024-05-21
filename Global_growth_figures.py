@@ -39,10 +39,11 @@ st.markdown(
     """
     <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
-                <p>- International teams follow the French YoY trend **but can't get on track** like in  France and **activate less their profiles**
-                <br>- Global reduce in amplitude for all. **Warning for March 24** amplitude compared to March 23 for International team
+                <p>- International teams follow the French YoY trend <b>but can't get on track</b> like in  France and <b>activate less their profiles</b>
+                <br>- Global reduce in amplitude for all. <b>Warning for March 24</b> amplitude compared to March 23 for International team
                 <br>- Harold hypothesis is that non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again
-                <br>- Need to conntinue the work of translation, streghten the marketing messages (presentation and revival) and the **onboarding** to immprove validation rates
+                <br>- Maxence hypothesis is that it comes from club member (players & parents) and not team owners
+                <br>- Need to conntinue the work of translation, streghten the marketing messages (presentation and revival) and the <b>onboarding</b> to immprove validation rates
                 <br>- NL and PT are below in profiles creation **BUT** NL has the best validation rate with IT</p>
         </div>
     </div>""",
