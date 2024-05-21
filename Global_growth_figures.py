@@ -37,7 +37,7 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 
 st.markdown(
     """
-    <div style="display: block; height: 20vh;">
+    <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- International teams follow the French YoY trend but can't get on track like in  France and activate less their profiles
                 <br>- Global reduce in amplitude for all. Warning for March 24 amplitude compared to March 23 for International team
