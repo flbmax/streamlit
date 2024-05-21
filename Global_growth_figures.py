@@ -34,27 +34,12 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
         width=1000)
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
-st.markdown(
-    """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
-        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- International teams follow the French YoY trend but **can't get on track** like in  France and <b>activate less</b> their profiles
-            <p>- Global reduce in amplitude for all. **Warning for March 24 amplitude compared to March 23 for International team**
-            <p>- Because of clubs with months of discount ; they add members but do not invite them ? 
-            <p>- Harold hypothesis is thant non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again.
-           </p>
-        </div>
-    </div>""",
-    unsafe_allow_html=True
-)
 
 txt = st.text_area(
-    "Text to analyze",
-    "It was the best of times, it was the worst of times, it was the age of "
-    "wisdom, it was the age of foolishness, it was the epoch of belief, it "
-    "was the epoch of incredulity, it was the season of Light, it was the "
-    "season of Darkness, it was the spring of hope, it was the winter of "
-    "despair, (...)",
+    "- International teams follow the French YoY trend but **can't get on track** like in  France and <b>activate less</b> their profiles",
+    "- Global reduce in amplitude for all. **Warning for March 24 amplitude compared to March 23 for International team**"
+    "- Harold hypothesis is thant non-validated profiles come from teams owners letting their teams inactive (80% of inactive team in INT) because they did not figure out the SportEasy purpose. They create a team and disapear right after without ever reconnect again"
+    ,
     )
 
 
