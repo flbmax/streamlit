@@ -72,11 +72,11 @@ st.caption('*using profile.default_language to determine the country : "es","en"
 st.markdown(
     """
     <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
-        <div style="background-color:rgb(237, 240, 243); padding: 25px; border-radius: 20px;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Seasonnality is exactly the same
-                <br>- International MAU goes from 100k -> 130k -> 150k i.e. +30% -> +15%
-                <br>- Where France MAU goes from 400k -> 550k -> 720k i.e. +38% -> +31%
-                <br>- International MAU growth <b>should be more stable</b></p>
+                <p>- International MAU goes from 100k -> 130k -> 150k i.e. +30% -> +15%
+                <p>- Where France MAU goes from 400k -> 550k -> 720k i.e. +38% -> +31%
+                <p>- International MAU growth <b>should be more stable</b></p>
         </div>
     </div>""",
     unsafe_allow_html=True
