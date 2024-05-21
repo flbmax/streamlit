@@ -35,7 +35,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
 st.caption('*using profile.default_language to determine the country : "es","en","it","nl","pt"')
 
 st.write('**France Analysis**')
-df_profiles_france = pd.DataFrame(columns=['Months','YoY', 'amplitude % previous month','amplitude % previous month 2024'])
+df_profiles_france = pd.DataFrame(columns=['Months','YoY', 'amplitude % previous month 2023','amplitude % previous month 2024'])
 df_profiles_france['Months'] = ['dec.', 'jan.','feb.','mar.','apr.']
 df_profiles_france['YoY'] = ['+ 13,6%', '- 15,5%','- 9,9%','- 11,7 %','+ 17,6%']
 df_profiles_france['amplitude % previous month 2023'] = ['', '+ 56,8%','- 25,9%','+ 7,4 %','- 37,2%']
