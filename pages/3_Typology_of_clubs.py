@@ -39,12 +39,37 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
         width=1000)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
+st.markdown(
+    """
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- Integral Version begins to grow more in targeted countries
+                <p>- Short lifetime for ES and IT -> <b>need to improve AM</b>
+                </p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 st.subheader(':green[b. Sport]')
 # sport pie chart
 components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-84e2-4ef7-90c5-9a809d81bfc5&obj=sgmqJ&theme=horizon&opt=ctxmenu",
     height=400,
     width=1700)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
+
+st.markdown(
+    """
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- Rugby is a crucial sport (particularly in ES, where it has overtaken football and also in IT and NL where we signed big clubs)
+                <p>- Cricket is n°2 sport in UK
+                <p>- Volley (n°2 sport in IT after football) has a huge potential
+                </p>
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
 
 
 st.subheader(':green[c. # Members in clubs]')
@@ -54,7 +79,17 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
     width=1000)
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 
-
+st.markdown(
+    """
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- Still signing small clubs (around 100 members)
+                <p>- Average basket is lower
+                <p>- Small clubs are often those with the less good grade, whereas medium/big clubs have better grades
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
     
 st.subheader(':green[d. # Teams in clubs]')
 # teams in clubs pie chart
