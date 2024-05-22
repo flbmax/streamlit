@@ -28,7 +28,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 65vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Number of teams created in ES has been impacted by ads done in 2022 that have boosted creation (but not activation). Except NL, half of the teams are Club Team.
                 <p>- Clear opportinity to sell Premium version to NL. Club Product has been hampered by competition like Sportlink or Allunited. Warning : this does not apply to Belgium clubs where SE Club has a huge potential.
