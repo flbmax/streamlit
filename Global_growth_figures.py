@@ -98,7 +98,7 @@ st.caption('**NL = Netherlands + Flanders (ie, "nl" as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 45vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Check https://sporteasy-bi.eu.qlikcloud.com/sense/app/fe30758a-8efe-48e4-943d-367693619486/sheet/bb3354f0-125b-4a8c-966e-3e2eb2c3088f/state/analysis/hubUrl/%2Fcatalog%3Fquick_search_filter%3Dteam
                 <p>- Still a <b>huge problem</b> of international teams activation despite some updgrades on onboarding: void modes, carousels, path of teams creation ...)
