@@ -141,4 +141,18 @@ We can notice the high number of churn clubs and the low number of churn in turn
 :warning: The net churn in turnover is therefore **1004,56 €**
 '''
 st.write(multi)
+
+st.markdown(
+    """
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
+            <p>- Losing half of the clubs but we can renew 90% of turnover
+            <p>- Beginning of 2024 is worrying but on a low number of clubs (9/16). The main renew period is coming soon
+            <p>- An more precise AM strategy more is necessary
+            <p>- Now 282 clients outside France <b>and</b> not speaking French
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 st.divider()

@@ -41,6 +41,11 @@ st.markdown(
     """
     <div style="display: block; height: 35vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- This only takes into account targeted countries (no South America for instance) hence the results are not a financial report but show the trend on targeted markets
+                <p>- Should have a more exponential curve in 2024, as S2 should be significant
+                <p>- Average basket increases YoY 
+                <p>- We are currently on a +85% trend compare to the same period last year
+                <p>- In February 2024, we top the performance of September 2023 (if we sum all countries with South America for example)
                 <p>- <b>Global Revenue Figures :</b>
                         <p>* Forecast of 224 000€ INT (with 27% premium vs 41% in 2023)
                         <p>* 18% in FR in 2023

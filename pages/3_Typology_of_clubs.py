@@ -115,6 +115,16 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=dfbf997f-
 st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of the team owner)**")
 st.write("The French trend is better : high-rated clubs are paying more")
 
+st.markdown(
+    """
+    <div style="display: block; height: 35vh;">
+        <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
+                <p>- Gauss explanation
+        </div>
+    </div>""",
+    unsafe_allow_html=True
+)
+
 
 st.subheader(':green[g. Main Features]')
 # 3 top used features based on health score
@@ -127,8 +137,13 @@ st.markdown(
     """
     <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
-            <p>- KNVB has a collab with Sportlink : dutch clubs have access to Sportlink Club.Basis and Club.Contribute products. It's administration tools.
-            <p>- The Organisation and Communication tools are not in it (maybe juste a basis) : that's why some NL teams are interested in attendances ? Explianing the high Premium rates ?</p>
+            <p>- Attendances are not much used (around 50%) when it's the core feature of SE
+            <p>- Use of collections become interesting on markets like ES
+            <p>- No use of club messaging system (because of WhatsApp ?)
+            <p>- Apart from IT, the club database is not used (need to have an administrative tool in IT)
+            <p>- Focus on NL :
+            <p>* KNVB has a collab with Sportlink : dutch clubs have access to Sportlink Club.Basis and Club.Contribute products. It's administration tools.
+            <p>* The Organisation and Communication tools are not in it (maybe juste a basis) : that's why some NL teams are interested in attendances ? Explianing the high Premium rates ?</p>
         </div>
     </div>""",
     unsafe_allow_html=True
