@@ -55,7 +55,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- In ES and IT, rugby is key in club sales development but it does not reflect here.
                 </p>
@@ -73,7 +73,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Need to better track this metrics
                 </p>
@@ -92,7 +92,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- First week of a team lifetime is crucial to go A2, but we spot teams with late activation
                 <p>- Follow up must be intense and very clear, mostly the first days of teams lifetime. If the coach loses interest or patience, it will be hard to get him back later.
@@ -116,7 +116,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 20vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- 'analyse_stats' : hypothesis that some coaches download SE having in mind a "Football Manager" like
                 </p>
