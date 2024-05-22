@@ -41,7 +41,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Integral Version begins to grow more in targeted countries
                 <p>- Short lifetime for ES and IT -> <b>need to improve AM</b>
@@ -60,7 +60,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Rugby is a crucial sport (particularly in ES, where it has overtaken football and also in IT and NL where we signed big clubs)
                 <p>- Cricket is n°2 sport in UK
@@ -81,7 +81,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Still signing small clubs (around 100 members)
                 <p>- Average basket is lower
@@ -117,7 +117,7 @@ st.write("The French trend is better : high-rated clubs are paying more")
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 30vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- Gauss explanation
         </div>
@@ -135,7 +135,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 20vh;">
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 60vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- Attendances are not much used (around 50%) when it's the core feature of SE
             <p>- Use of collections become interesting on markets like ES
