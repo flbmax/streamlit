@@ -135,7 +135,7 @@ st.caption("**NL = Netherlands + Flanders (ie, 'nl' as the default language of t
 
 st.markdown(
     """
-    <div style="display: compact; flex-direction: column; justify-content: center; height: 60vh;">
+    <div style="display: compact; flex-direction: column; justify-content: center; height: 55vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 30px;">
             <p>- Attendances are not much used (around 50%) when it's the core feature of SE
             <p>- Use of collections become interesting on markets like ES

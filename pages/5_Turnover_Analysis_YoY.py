@@ -39,7 +39,7 @@ components.iframe("https://sporteasy-bi.eu.qlikcloud.com/single/?appid=fe30758a-
 
 st.markdown(
     """
-    <div style="display: block; height: 35vh;">
+    <div style="display: block; height: 60vh;">
         <div style="background-color:rgb(237, 240, 243); padding: 20px; border-radius: 20px;">
                 <p>- This only takes into account targeted countries (no South America for instance) hence the results are not a financial report but show the trend on targeted markets
                 <p>- Should have a more exponential curve in 2024, as S2 should be significant
