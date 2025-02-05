@@ -2,8 +2,10 @@ import streamlit as st
 import streamlit.components.v1 as components
 import pandas as pd
 
-st.balloons()
-st.write("🎉 Nouveau contrat signé ! 🎉")
+gif_html = """
+    <img src="https://media.giphy.com/media/26gR0BwpqHjsUu6YY/giphy.gif" width="400">
+    """
+st.components.v1.html(gif_html, height=300)
 
 st.set_page_config(page_title="Workshop International", page_icon='sporteasy_logo.png', layout="wide")
 
